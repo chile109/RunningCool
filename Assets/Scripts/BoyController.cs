@@ -22,7 +22,6 @@ namespace MoreMountains.InfiniteRunnerEngine
         public float BuffTime = 5f;
 
         public int _numberOfJumpsLeft;
-        protected bool _jumping = false;
         protected bool _flying = false;
         protected float _lastJumpTime;
         protected float _FlyStartTime;
@@ -42,8 +41,6 @@ namespace MoreMountains.InfiniteRunnerEngine
         /// </summary>
         protected override void Update()
         {
-            _jumping = false;
-
             // we determine the distance between the ground and the Jumper
             ComputeDistanceToTheGround();
             // we send our various states to the animator.      
@@ -56,7 +53,6 @@ namespace MoreMountains.InfiniteRunnerEngine
             // we reset our jump variables if needed
             if (_grounded)
             {
-                _jumping = false;
                 if (Time.time - _lastJumpTime > 0.02f)
                 {
                     _numberOfJumpsLeft = NumberOfJumpsAllowed;
@@ -70,8 +66,8 @@ namespace MoreMountains.InfiniteRunnerEngine
         protected override void UpdateAllMecanimAnimators()
         {
             MMAnimator.UpdateAnimatorBoolIfExists(_animator, "Grounded", _grounded);
-            MMAnimator.UpdateAnimatorBoolIfExists(_animator, "Jumping", _jumping);
             MMAnimator.UpdateAnimatorBoolIfExists(_animator, "Flying", _flying);
+            MMAnimator.UpdateAnimatorFloatIfExists(_animator, "VerticalSpeed", _rigidbodyInterface.Velocity.y);
         }
 
         public void Fly()
@@ -115,6 +111,8 @@ namespace MoreMountains.InfiniteRunnerEngine
         /// </summary>
         protected virtual void PerformJump()
         {
+            
+
             _lastJumpTime = Time.time;
             // we jump and decrease the number of jumps left
             _numberOfJumpsLeft--;
@@ -130,7 +128,6 @@ namespace MoreMountains.InfiniteRunnerEngine
             MMEventManager.TriggerEvent(new MMGameEvent("Jump"));
 
             _lastJumpTime = Time.time;
-            _jumping = true;
         }
 
         protected virtual void ApplyJumpForce()

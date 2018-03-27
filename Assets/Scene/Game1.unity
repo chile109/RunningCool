@@ -585,7 +585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartingPosition: {fileID: 1721065702}
   PlayableCharacters:
-  - {fileID: 11483956, guid: 71a5a2cf71ee85143b79f2b726ab594e, type: 2}
+  - {fileID: 114153387189314458, guid: dea71554ce43a4974a4e6b730e3e7c3e, type: 2}
   DistanceBetweenCharacters: 1
   PointsPerSecond: 20
   InstructionsText: 'Desktop : Press space or A (pad) to jump.
