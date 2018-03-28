@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cec2797d2a6b34d439d5365bd4ac49cc
-timeCreated: 1521793408
+guid: 2f3f08649b3ebcc42889ed36ae69a5ae
+timeCreated: 1522228350
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,9 +10,6 @@ TextureImporter:
     21300006: jump_3
     21300008: jump_4
     21300010: jump_5
-    21300012: jump_6
-    21300014: jump_7
-    21300016: jump_8
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -93,7 +90,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 600
+        y: 0
         width: 300
         height: 300
       alignment: 0
@@ -107,7 +104,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 300
-        y: 600
+        y: 0
         width: 300
         height: 300
       alignment: 0
@@ -121,7 +118,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 600
-        y: 600
+        y: 0
         width: 300
         height: 300
       alignment: 0
@@ -134,8 +131,8 @@ TextureImporter:
       name: jump_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
+        x: 900
+        y: 0
         width: 300
         height: 300
       alignment: 0
@@ -148,8 +145,8 @@ TextureImporter:
       name: jump_4
       rect:
         serializedVersion: 2
-        x: 300
-        y: 300
+        x: 1200
+        y: 0
         width: 300
         height: 300
       alignment: 0
@@ -162,49 +159,7 @@ TextureImporter:
       name: jump_5
       rect:
         serializedVersion: 2
-        x: 600
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: jump_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: jump_7
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: jump_8
-      rect:
-        serializedVersion: 2
-        x: 600
+        x: 1500
         y: 0
         width: 300
         height: 300
