@@ -178,14 +178,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 309149937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74dcd6b3416498f438586dfec5198aa1, type: 3}
+  m_Script: {fileID: 11500000, guid: 72614d3b296314bfb993b1b8fe96c02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
-  GameObjectToPool: {fileID: 183730, guid: 7dd1901040f9dbd40b97b3b92ceabbd5, type: 2}
-  PoolSize: 20
-  PoolCanExpand: 1
+  Pool:
+  - GameObjectToPool: {fileID: 183730, guid: 7dd1901040f9dbd40b97b3b92ceabbd5, type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  PoolingMethod: 3
+  CanPoolSameObjectTwice: 1
 --- !u!1 &349340421
 GameObject:
   m_ObjectHideFlags: 0
