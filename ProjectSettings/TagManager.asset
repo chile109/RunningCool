@@ -19,7 +19,7 @@ TagManager:
   - Editor
   - NoCollisions
   - Wall
-  - 
+  - player
   - 
   - 
   - 
@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: player
+    uniqueID: 906555371
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
