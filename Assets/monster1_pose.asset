@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: monster1_pose
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: body
+    localPosition: {x: -0.07695716, y: -0.3203385, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1
+    localPosition: {x: -0.17783731, y: 0.38390708, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9336993, w: 0.35805827}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone
+    localPosition: {x: 0.14999953, y: -0.00000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.21567273, w: 0.9764657}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone
+    localPosition: {x: 0.100000896, y: -0.00000022165477, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.44724405, w: 0.894412}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone
+    localPosition: {x: 0.09999936, y: -0.000000692904, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.21579215, w: 0.97643936}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.14999808, y: 9.313226e-10, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.12426825, w: 0.99224865}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.100000985, y: 0.000000012165401, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.1628996, w: 0.9866427}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.13000037, y: 0.00000031897798, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.19889759, w: 0.9800203}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.13000049, y: -0.00000071246177, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.22804505, w: 0.97365063}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    localPosition: {x: 0.12999998, y: -0.0000015529804, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.3391156, w: 0.9407447}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 1/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    localPosition: {x: 0.150001, y: -0.0000013820827, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.18712418, w: 0.98233634}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2
+    localPosition: {x: -0.24357004, y: 0.18759944, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.99441284, w: 0.10556112}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone
+    localPosition: {x: 0.09999982, y: -0.00000012665987, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.18690123, w: 0.9823787}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone
+    localPosition: {x: 0.10000151, y: -0.00000043259934, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.1217342, w: 0.9925627}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone/New bone
+    localPosition: {x: 0.09999837, y: 0.000000665721, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.09537676, w: 0.99544126}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000011, y: 0.00000036502024, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.24383508, w: 0.9698167}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.1499991, y: -0.000000747852, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.06086563, w: 0.998146}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.100000694, y: 0.0000009566575, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.115674, w: 0.99328727}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 2/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000153, y: 0.00000066746725, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.30617708, w: 0.9519746}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3
+    localPosition: {x: -0.23200554, y: -0.032634094, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.98937666, w: 0.14537503}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone
+    localPosition: {x: 0.10000033, y: -0.000000040978193, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone
+    localPosition: {x: 0.099999614, y: 0.0000014819204, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.20545273, w: 0.9786671}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone/New bone
+    localPosition: {x: 0.10000016, y: -0.00000066682696, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.37280154, w: 0.92791116}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.09999955, y: -0.00000029988587, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000163, y: 0.000000017508576, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000014, y: -0.0000010676683, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.2925886, w: 0.95623845}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 3/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.100001514, y: 0.0000011399388, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.30208698, w: 0.9532804}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4
+    localPosition: {x: -0.22612064, y: -0.22939782, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.98704964, w: 0.16041523}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone
+    localPosition: {x: 0.100001074, y: 0.0000006891787, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.07305539, w: 0.9973279}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone
+    localPosition: {x: 0.09999995, y: 0.0000003138848, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.15328766, w: 0.98818165}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone
+    localPosition: {x: 0.09999984, y: 0.0000007186318, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.20416734, w: 0.978936}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.100000195, y: -0.00000083702616, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.24407203, w: 0.96975714}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.09999854, y: 0.00000014575198, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.09064999, w: 0.99588287}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000048, y: -0.00000030527008, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000039, y: 0.000000109226676, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    localPosition: {x: 0.09999847, y: -0.0000004899921, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    localPosition: {x: 0.10000012, y: 0.00000009534415, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.13224779, w: 0.9912167}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone
+    localPosition: {x: 0.100001596, y: -0.00000037119025, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.2198888, w: 0.97552496}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 4/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone/New bone
+    localPosition: {x: 0.09999899, y: 0.0000004679896, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.1508899, w: 0.9885506}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5
+    localPosition: {x: -0.1609138, y: -0.39943308, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8367022, w: 0.5476581}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone
+    localPosition: {x: 0.09999849, y: -0.00000011920929, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.06302566, w: 0.99801195}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone
+    localPosition: {x: 0.10000071, y: -0.0000003098612, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.18047617, w: 0.98357934}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone
+    localPosition: {x: 0.100001045, y: -0.0000004528556, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.06167566, w: 0.9980963}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.09999883, y: -0.00000002267916, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.073351294, w: 0.99730617}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000059, y: -0.0000004968606, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.10000247, y: 0.000000033632496, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone/New bone/New bone
+    localPosition: {x: 0.100001335, y: -0.00000023915774, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.0715061, w: 0.99744016}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone
+    localPosition: {x: 0.100000344, y: -0.0000010505755, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.18702978, w: 0.9823542}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone
+    localPosition: {x: 0.09999796, y: 0.00000091199763, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.23253737, w: 0.9725875}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: body/leg 5/New bone/New bone/New bone/New bone/New bone/New bone/New bone/New
+      bone/New bone/New bone
+    localPosition: {x: 0.100002095, y: 0.0000012279488, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.19963987, w: 0.97986937}
+    localScale: {x: 1, y: 1, z: 1}
