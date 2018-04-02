@@ -5,7 +5,6 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 /Assets/InfiniteRunnerEngine
-/Assets/MMData
 
 # Visual Studio 2015 cache directory
 /.vs/
