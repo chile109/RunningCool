@@ -210,7 +210,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -299,9 +299,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseDefaultMecanim: 1
   ShouldResetPosition: 0
-  ResetPositionSpeed: 0.7
-  FlyForce: 50
-  MaximumVelocity: 10
+  ResetPositionSpeed: 1
+  FlyForce: 100
+  MaximumVelocity: 50
   RocketContainer: {fileID: 1103210733385222}
   ActualRocket: {fileID: 1850904411694342}
   ReactorLeft: {fileID: 198309870015722402}
