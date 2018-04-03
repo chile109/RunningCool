@@ -602,47 +602,19 @@ MonoBehaviour:
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
-  - GameObjectToPool: {fileID: 118832, guid: 7da5c792462080341b7faaf826a2eb48, type: 2}
+  - GameObjectToPool: {fileID: 161264, guid: 4dccd43af78d04c47a14f764702bbb3f, type: 2}
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
-  - GameObjectToPool: {fileID: 191120, guid: 785a098d1feb92f4a84fe520eb2f07fa, type: 2}
+  - GameObjectToPool: {fileID: 105972, guid: 943b7b89b220f4e5c8c91c430d5ae47f, type: 2}
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
-  - GameObjectToPool: {fileID: 134212, guid: 0891598780bbf4a43a1bcd430bf204a9, type: 2}
+  - GameObjectToPool: {fileID: 192806, guid: 84a966883067b4276862f435b0f9077b, type: 2}
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
-  - GameObjectToPool: {fileID: 149096, guid: ce8be0b6e225f5b4e92dd1eb1206d587, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 196104, guid: 15ba854bcff12904895709d4a3e4685a, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 166874, guid: b9a7e0633bdec5545bf15913dde282e2, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 157746, guid: 5a9af8428ff006c4381602bd6a8deab5, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 160382, guid: 4a2361fb387040c4ca72a29a647180cb, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 192806, guid: 89b2efa6f6eb77248ac1a501b380de15, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 105972, guid: 6d11318586607b941889ac3b6ede455c, type: 2}
-    PoolSize: 1
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 161264, guid: 2ea679906fb9e774f94e0fe3436b37fa, type: 2}
+  - GameObjectToPool: {fileID: 160382, guid: f5396c8eda835427ca6a18d42828e307, type: 2}
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
@@ -11076,7 +11048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -38.3, y: -34.8}
+  m_AnchoredPosition: {x: -38.30005, y: -34.799988}
   m_SizeDelta: {x: 74.6, y: 68.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475152690
