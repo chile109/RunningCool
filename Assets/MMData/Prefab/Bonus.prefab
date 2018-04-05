@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114755001891236022}
   - component: {fileID: 114632452877180904}
   - component: {fileID: 114087422257288452}
+  - component: {fileID: 114522855312623706}
   m_Layer: 0
   m_Name: Bonus
   m_TagString: Untagged
@@ -90,6 +91,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroyDistanceBehindBounds: 5
+--- !u!114 &114522855312623706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1985727141006828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b5a1513eddd15488e8dc903ac7dcbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoundsBasedOn: 1
+  LifeTime: 0
 --- !u!114 &114632452877180904
 MonoBehaviour:
   m_ObjectHideFlags: 1
