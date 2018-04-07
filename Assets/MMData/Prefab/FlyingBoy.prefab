@@ -291,7 +291,7 @@ MonoBehaviour:
   ResetPositionSpeed: 0.5
   FlapForce: {x: 0, y: 5, z: 0}
   CooldownBetweenFlaps: 1
-  Flame: {fileID: 1850904411694342}
+  Flame: {fileID: 1921315537568406}
   Explosion: {fileID: 100360, guid: 6d1b274916efdc8489f9964853d29825, type: 2}
   StartImmunityDuration: 3.5
 --- !u!114 &114711301938461632

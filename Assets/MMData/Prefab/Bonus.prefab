@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 95196256864165844}
   - component: {fileID: 114905894547171544}
   - component: {fileID: 114755001891236022}
-  - component: {fileID: 114632452877180904}
   - component: {fileID: 114087422257288452}
   - component: {fileID: 114522855312623706}
   m_Layer: 0
@@ -104,21 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BoundsBasedOn: 1
   LifeTime: 0
---- !u!114 &114632452877180904
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1985727141006828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4a6617bb2a239047a2242ac9b1cc531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 12
-  Acceleration: 0
-  Direction: {x: -1, y: 0, z: 0}
-  DirectionCanBeChangedBySpawner: 1
 --- !u!114 &114755001891236022
 MonoBehaviour:
   m_ObjectHideFlags: 1

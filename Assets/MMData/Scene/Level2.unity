@@ -357,9 +357,9 @@ MonoBehaviour:
   InitialDelay: 0
   GapOrigin: 0
   MinimumGap: {x: 3, y: 0, z: 0}
-  MaximumGap: {x: 10, y: 2, z: 0}
-  MinimumYClamp: -1
-  MaximumYClamp: 2.29
+  MaximumGap: {x: 7, y: 2, z: 0}
+  MinimumYClamp: 0
+  MaximumYClamp: 1.5
   MinimumZClamp: 0
   MaximumZClamp: 0
   SpawnRotatedToDirection: 1
@@ -374,7 +374,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &309149940
 MonoBehaviour:
@@ -721,6 +721,109 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1008002930}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1011682982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1011682985}
+  - component: {fileID: 1011682984}
+  - component: {fileID: 1011682983}
+  m_Layer: 0
+  m_Name: StarSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1011682983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011682982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72614d3b296314bfb993b1b8fe96c02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  Pool:
+  - GameObjectToPool: {fileID: 1032247892324220, guid: 96189572df28d4b8ba48a17f96c45a3a,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1211366603594458, guid: f2da0fcb6447d4fd9b3eae01c5b73501,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1634206169133904, guid: e4aff397a2f074344b1f6a532bf64ce6,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1845711300447168, guid: c507e0b38285c4eddbc48f9eef82be78,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1618570081935764, guid: 90abb289fe9ac4678995213fe56f62b2,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1356680270858962, guid: 2ef2618a4155d42469dcda44e856ede0,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
+  PoolingMethod: 3
+  CanPoolSameObjectTwice: 1
+--- !u!114 &1011682984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011682982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 1, y: 1, z: 0}
+  MaximumSize: {x: 1, y: 1, z: 0}
+  PreserveRatio: 0
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 1
+  InitialDelay: 0
+  GapOrigin: 0
+  MinimumGap: {x: 15, y: 0, z: 0}
+  MaximumGap: {x: 20, y: 2, z: 0}
+  MinimumYClamp: 5
+  MaximumYClamp: 10
+  MinimumZClamp: 0
+  MaximumZClamp: 0
+  SpawnRotatedToDirection: 0
+--- !u!4 &1011682985
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011682982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1080557593
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1080557599
 MonoBehaviour:
@@ -856,7 +959,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 433572, guid: 70f25d04382fe47a095b00bae126ce18, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.89
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 433572, guid: 70f25d04382fe47a095b00bae126ce18, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1010,7 +1113,7 @@ MonoBehaviour:
     Careful not to fall!'
   RecycleBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 49.94, y: 22.5, z: 0}
+    m_Extent: {x: 30, y: 15, z: 0}
   DeathBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 15.6, y: 7.33, z: 0}
@@ -1315,7 +1418,7 @@ Transform:
   - {fileID: 297807898}
   - {fileID: 937302072}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721065702 stripped
 GameObject:
