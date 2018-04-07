@@ -143,7 +143,7 @@ Transform:
   - {fileID: 1126203303}
   - {fileID: 904397324}
   m_Father: {fileID: 387934465}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &135933105
 Prefab:
@@ -256,7 +256,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &240646659
 MonoBehaviour:
@@ -341,7 +341,6 @@ Transform:
   m_LocalPosition: {x: -40.88, y: 4.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1964930577}
   - {fileID: 1369598575}
   - {fileID: 1090129998}
   - {fileID: 15176377}
@@ -463,7 +462,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &497657230
 MonoBehaviour:
@@ -765,7 +764,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!199 &1090129999
 ParticleSystemRenderer:
@@ -4349,7 +4348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!199 &1369598576
 ParticleSystemRenderer:
@@ -7829,91 +7828,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1964930576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1964930577}
-  - component: {fileID: 1964930579}
-  - component: {fileID: 1964930578}
-  m_Layer: 0
-  m_Name: ForegroundSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1964930577
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964930576}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.872986, y: -10.545311, z: -4.108281}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 387934465}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1964930578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964930576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72614d3b296314bfb993b1b8fe96c02c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MutualizeWaitingPools: 0
-  NestWaitingPool: 1
-  Pool:
-  - GameObjectToPool: {fileID: 120212, guid: 7b406be7fcc1dbc488704d9600a7bb11, type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 153548, guid: eec0c57f9483c4545ace7dd87bb38636, type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 179894, guid: 8671dd571f4ee22468e32970e1f0981a, type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 186204, guid: e27f903ae2ba6454f8850a17c52acf0c, type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
-    Enabled: 1
-  PoolingMethod: 3
-  CanPoolSameObjectTwice: 1
---- !u!114 &1964930579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964930576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9825c1a75a1139e4698dc2d0aa2eed3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MinimumSize: {x: 1, y: 1, z: 1}
-  MaximumSize: {x: 1, y: 1, z: 1}
-  PreserveRatio: 0
-  MinimumRotation: {x: 0, y: 0, z: 0}
-  MaximumRotation: {x: 0, y: 0, z: 0}
-  Spawning: 1
-  OnlySpawnWhileGameInProgress: 1
-  InitialDelay: 0
-  MinSpawnTime: 5
-  MaxSpawnTime: 15
-  MinPosition: {x: 0, y: 0, z: 0}
-  MaxPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1969892932
 GameObject:
   m_ObjectHideFlags: 0
