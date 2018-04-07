@@ -346,6 +346,7 @@ Transform:
   - {fileID: 15176377}
   - {fileID: 240646658}
   - {fileID: 497657229}
+  - {fileID: 753795915}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -526,6 +527,104 @@ BoxCollider2D:
 GameObject:
   m_PrefabParentObject: {fileID: 168562, guid: 70f25d04382fe47a095b00bae126ce18, type: 2}
   m_PrefabInternal: {fileID: 2081032196}
+--- !u!1 &753795914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 753795915}
+  - component: {fileID: 753795917}
+  - component: {fileID: 753795916}
+  m_Layer: 0
+  m_Name: ObstacleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &753795915
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753795914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.78, y: -4.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387934465}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &753795916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753795914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72614d3b296314bfb993b1b8fe96c02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  Pool:
+  - GameObjectToPool: {fileID: 1605442357670236, guid: e699401d2c36b4b1e8b1da3e8509c6ba,
+      type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1580228256228362, guid: 7330a7cf1eb054c3c86dc77241885f26,
+      type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1882991066637816, guid: 401635f14b7034d9bb8c568f462e4a3e,
+      type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1456120160018182, guid: 76a422edef37d464b88a13ba463ae3d1,
+      type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 1646469831342514, guid: 813de84968a3849c39306296dac97666,
+      type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  PoolingMethod: 3
+  CanPoolSameObjectTwice: 1
+--- !u!114 &753795917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753795914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 1, y: 1, z: 0}
+  MaximumSize: {x: 1, y: 1, z: 0}
+  PreserveRatio: 0
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 0
+  InitialDelay: 0
+  GapOrigin: 0
+  MinimumGap: {x: 15, y: -4, z: 0}
+  MaximumGap: {x: 25, y: 4, z: 0}
+  MinimumYClamp: -2
+  MaximumYClamp: 2
+  MinimumZClamp: 0
+  MaximumZClamp: 0
+  SpawnRotatedToDirection: 1
 --- !u!1 &904397323
 GameObject:
   m_ObjectHideFlags: 0
