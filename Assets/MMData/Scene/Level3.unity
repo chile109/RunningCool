@@ -347,6 +347,7 @@ Transform:
   - {fileID: 240646658}
   - {fileID: 497657229}
   - {fileID: 753795915}
+  - {fileID: 913970888}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -543,7 +544,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &753795915
 Transform:
   m_ObjectHideFlags: 0
@@ -588,12 +589,7 @@ MonoBehaviour:
     Enabled: 1
   - GameObjectToPool: {fileID: 1456120160018182, guid: 76a422edef37d464b88a13ba463ae3d1,
       type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
-    Enabled: 1
-  - GameObjectToPool: {fileID: 1646469831342514, guid: 813de84968a3849c39306296dac97666,
-      type: 2}
-    PoolSize: 2
+    PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
   PoolingMethod: 3
@@ -609,19 +605,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumSize: {x: 1, y: 1, z: 0}
-  MaximumSize: {x: 1, y: 1, z: 0}
-  PreserveRatio: 0
+  MinimumSize: {x: 0.6, y: 0.6, z: 0}
+  MaximumSize: {x: 0.8, y: 0.8, z: 0}
+  PreserveRatio: 1
   MinimumRotation: {x: 0, y: 0, z: 0}
-  MaximumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 360}
   Spawning: 1
   OnlySpawnWhileGameInProgress: 0
   InitialDelay: 0
   GapOrigin: 0
-  MinimumGap: {x: 15, y: -4, z: 0}
-  MaximumGap: {x: 25, y: 4, z: 0}
-  MinimumYClamp: -2
-  MaximumYClamp: 2
+  MinimumGap: {x: 10, y: -5, z: 0}
+  MaximumGap: {x: 25, y: 5, z: 0}
+  MinimumYClamp: -4
+  MaximumYClamp: 4
   MinimumZClamp: 0
   MaximumZClamp: 0
   SpawnRotatedToDirection: 1
@@ -709,6 +705,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 904397323}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &913970887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 913970888}
+  - component: {fileID: 913970890}
+  - component: {fileID: 913970889}
+  m_Layer: 0
+  m_Name: PlanetSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &913970888
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913970887}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 59.28, y: -4.3199997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387934465}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &913970889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913970887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dcd6b3416498f438586dfec5198aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  GameObjectToPool: {fileID: 1452841701032756, guid: d64d5b299799b4b1c8fdf1d5c9453af1,
+    type: 2}
+  PoolSize: 1
+  PoolCanExpand: 0
+--- !u!114 &913970890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 913970887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 1.5, y: 1.5, z: 0}
+  MaximumSize: {x: 1.5, y: 1.5, z: 0}
+  PreserveRatio: 1
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 0
+  InitialDelay: 0
+  GapOrigin: 0
+  MinimumGap: {x: 10, y: -4, z: 0}
+  MaximumGap: {x: 30, y: 4, z: 0}
+  MinimumYClamp: 2
+  MaximumYClamp: 3
+  MinimumZClamp: 0
+  MaximumZClamp: 0
+  SpawnRotatedToDirection: 1
 --- !u!1 &1080557593
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +970,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -232623025
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -981,7 +1051,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 322256673
+  randomSeed: 303834033
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4484,7 +4554,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -232623025
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -4565,7 +4635,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 941996844
+  randomSeed: 1725429232
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7884,7 +7954,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
-  GameObjectToPool: {fileID: 168528, guid: ce1a57fd94f0a4641aa963417b32f0ce, type: 2}
+  GameObjectToPool: {fileID: 1456120160018182, guid: 76a422edef37d464b88a13ba463ae3d1,
+    type: 2}
   PoolSize: 20
   PoolCanExpand: 1
 --- !u!114 &1918863559
