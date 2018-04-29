@@ -20,8 +20,8 @@ TagManager:
   - NoCollisions
   - Wall
   - player
-  - 
-  - 
+  - Enemy
+  - background
   - 
   - 
   - 
@@ -68,4 +68,7 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 906555371
+    locked: 0
+  - name: Enemy
+    uniqueID: 4120066615
     locked: 0

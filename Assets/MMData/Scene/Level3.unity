@@ -544,7 +544,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &753795915
 Transform:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ MonoBehaviour:
   OnlySpawnWhileGameInProgress: 0
   InitialDelay: 0
   GapOrigin: 0
-  MinimumGap: {x: 10, y: -5, z: 0}
+  MinimumGap: {x: 3, y: 2, z: 0}
   MaximumGap: {x: 25, y: 5, z: 0}
   MinimumYClamp: -4
   MaximumYClamp: 4
@@ -721,7 +721,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &913970888
 Transform:
   m_ObjectHideFlags: 0
@@ -1051,7 +1051,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 303834033
+  randomSeed: 956576958
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4635,7 +4635,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1183561704
+  randomSeed: -1310105135
   InitialModule:
     serializedVersion: 3
     enabled: 1
