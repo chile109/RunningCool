@@ -4635,7 +4635,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1725429232
+  randomSeed: 1183561704
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7969,9 +7969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumSize: {x: 0.8, y: 0.8, z: 0}
-  MaximumSize: {x: 1, y: 1, z: 0}
-  PreserveRatio: 0
+  MinimumSize: {x: 0.6, y: 0.6, z: 0}
+  MaximumSize: {x: 0.8, y: 0.8, z: 0}
+  PreserveRatio: 1
   MinimumRotation: {x: 0, y: 0, z: 0}
   MaximumRotation: {x: 0, y: 0, z: 0}
   Spawning: 1
