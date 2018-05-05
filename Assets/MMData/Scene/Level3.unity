@@ -325,7 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387934465}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: backGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 497657231}
   - component: {fileID: 497657230}
   m_Layer: 8
-  m_Name: Ground (1)
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,7 +552,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 753795914}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.78, y: -4.25, z: 0}
+  m_LocalPosition: {x: 63.89, y: -4.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
@@ -574,23 +574,23 @@ MonoBehaviour:
   Pool:
   - GameObjectToPool: {fileID: 1605442357670236, guid: e699401d2c36b4b1e8b1da3e8509c6ba,
       type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
+    PoolSize: 1
+    PoolCanExpand: 0
     Enabled: 1
   - GameObjectToPool: {fileID: 1580228256228362, guid: 7330a7cf1eb054c3c86dc77241885f26,
       type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
+    PoolSize: 1
+    PoolCanExpand: 0
     Enabled: 1
   - GameObjectToPool: {fileID: 1882991066637816, guid: 401635f14b7034d9bb8c568f462e4a3e,
       type: 2}
-    PoolSize: 2
-    PoolCanExpand: 1
+    PoolSize: 1
+    PoolCanExpand: 0
     Enabled: 1
   - GameObjectToPool: {fileID: 1456120160018182, guid: 76a422edef37d464b88a13ba463ae3d1,
       type: 2}
     PoolSize: 1
-    PoolCanExpand: 1
+    PoolCanExpand: 0
     Enabled: 1
   PoolingMethod: 3
   CanPoolSameObjectTwice: 1
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumSize: {x: 0.6, y: 0.6, z: 0}
-  MaximumSize: {x: 0.8, y: 0.8, z: 0}
+  MinimumSize: {x: 1, y: 1, z: 0}
+  MaximumSize: {x: 2, y: 2, z: 0}
   PreserveRatio: 1
   MinimumRotation: {x: 0, y: 0, z: 0}
   MaximumRotation: {x: 0, y: 0, z: 360}
@@ -614,10 +614,10 @@ MonoBehaviour:
   OnlySpawnWhileGameInProgress: 0
   InitialDelay: 0
   GapOrigin: 0
-  MinimumGap: {x: 3, y: 2, z: 0}
-  MaximumGap: {x: 25, y: 5, z: 0}
-  MinimumYClamp: -4
-  MaximumYClamp: 4
+  MinimumGap: {x: 20, y: -8, z: 0}
+  MaximumGap: {x: 30, y: 10, z: 0}
+  MinimumYClamp: -5
+  MaximumYClamp: 5
   MinimumZClamp: 0
   MaximumZClamp: 0
   SpawnRotatedToDirection: 1
@@ -729,7 +729,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 913970887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.28, y: -4.3199997, z: 0}
+  m_LocalPosition: {x: 76.6, y: -2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387934465}
@@ -763,8 +763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumSize: {x: 1.5, y: 1.5, z: 0}
-  MaximumSize: {x: 1.5, y: 1.5, z: 0}
+  MinimumSize: {x: 5, y: 5, z: 0}
+  MaximumSize: {x: 5, y: 5, z: 0}
   PreserveRatio: 1
   MinimumRotation: {x: 0, y: 0, z: 0}
   MaximumRotation: {x: 0, y: 0, z: 0}
@@ -772,9 +772,9 @@ MonoBehaviour:
   OnlySpawnWhileGameInProgress: 0
   InitialDelay: 0
   GapOrigin: 0
-  MinimumGap: {x: 10, y: -4, z: 0}
-  MaximumGap: {x: 30, y: 4, z: 0}
-  MinimumYClamp: 2
+  MinimumGap: {x: 10, y: -10, z: 0}
+  MaximumGap: {x: 30, y: 15, z: 0}
+  MinimumYClamp: -3
   MaximumYClamp: 3
   MinimumZClamp: 0
   MaximumZClamp: 0
@@ -1051,7 +1051,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 956576958
+  randomSeed: 792020382
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4635,7 +4635,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1310105135
+  randomSeed: -2100430394
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7935,7 +7935,7 @@ GameObject:
   - component: {fileID: 1918863559}
   - component: {fileID: 1918863558}
   m_Layer: 0
-  m_Name: SharkSpawner
+  m_Name: OctupusSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
