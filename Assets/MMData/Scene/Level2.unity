@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 309149938}
   - component: {fileID: 309149940}
   m_Layer: 0
-  m_Name: ForestPlatformSpawner
+  m_Name: PlatformSpawner
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -356,8 +356,8 @@ MonoBehaviour:
   OnlySpawnWhileGameInProgress: 0
   InitialDelay: 0
   GapOrigin: 0
-  MinimumGap: {x: 3, y: 0, z: 0}
-  MaximumGap: {x: 7, y: 2, z: 0}
+  MinimumGap: {x: 3, y: 1, z: 0}
+  MaximumGap: {x: 10, y: 1.5, z: 0}
   MinimumYClamp: 0
   MaximumYClamp: 1.5
   MinimumZClamp: 0
@@ -782,6 +782,11 @@ MonoBehaviour:
     PoolSize: 1
     PoolCanExpand: 1
     Enabled: 1
+  - GameObjectToPool: {fileID: 1773276222012806, guid: 6738713f9a37d4d0c8e2abdcd55711dc,
+      type: 2}
+    PoolSize: 1
+    PoolCanExpand: 1
+    Enabled: 1
   PoolingMethod: 3
   CanPoolSameObjectTwice: 1
 --- !u!114 &1011682984
@@ -1033,11 +1038,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -3.262344
+      value: -3.58
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 4.0281024
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1117,9 +1122,9 @@ MonoBehaviour:
   DeathBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 15.6, y: 7.33, z: 0}
-  InitialSpeed: 5
-  MaximumSpeed: 30
-  SpeedAcceleration: 0.5
+  InitialSpeed: 10
+  MaximumSpeed: 35
+  SpeedAcceleration: 1
   IntroFadeDuration: 1
   OutroFadeDuration: 1
   StartCountdown: 0
@@ -1395,7 +1400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672938303}
   m_Layer: 0
-  m_Name: JellyForestBackground
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1470,6 +1475,10 @@ Prefab:
     - target: {fileID: 11442018, guid: 8e3c84f4e1deec84090aa080916cbac0, type: 2}
       propertyPath: DestroyDistanceBehindBounds
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 177940, guid: 8e3c84f4e1deec84090aa080916cbac0, type: 2}
+      propertyPath: m_Name
+      value: StartPlatform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8e3c84f4e1deec84090aa080916cbac0, type: 2}
