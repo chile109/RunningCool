@@ -1641,6 +1641,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114030592528592026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2419,9 +2420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb167c7974054648ae5f2af294f93c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   rotatingSpeed: 500
-  Gap: 5
+  Gap: 7
   target: {fileID: 0}
 --- !u!114 &114886920087008284
 MonoBehaviour:
@@ -2601,6 +2602,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
