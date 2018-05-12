@@ -1155,7 +1155,7 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 15.6, y: 7.33, z: 0}
   InitialSpeed: 10
-  MaximumSpeed: 35
+  MaximumSpeed: 30
   SpeedAcceleration: 1
   IntroFadeDuration: 1
   OutroFadeDuration: 1
