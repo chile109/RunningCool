@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 8
+  serializedVersion: 9
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,6 +39,7 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -54,11 +55,10 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
+    m_AtlasSize: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 0
@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &5
 NavMeshSettings:
   serializedVersion: 2
@@ -172,6 +172,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 222198c90538ea84a874dccb3a95513a, type: 2}
   m_StaticBatchInfo:
@@ -252,8 +253,8 @@ MonoBehaviour:
   Spawning: 1
   OnlySpawnWhileGameInProgress: 1
   InitialDelay: 0
-  MinSpawnTime: 0.5
-  MaxSpawnTime: 2
+  MinSpawnTime: 0
+  MaxSpawnTime: 1.5
   MinPosition: {x: 0, y: -5, z: 0}
   MaxPosition: {x: 0, y: 5, z: 0}
 --- !u!4 &309149939
@@ -378,6 +379,34 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 22425178, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00036621094
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425178, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -33.71997
+      objectReference: {fileID: 0}
+    - target: {fileID: 22429602, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000579834
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464688, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464688, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00018310547
+      objectReference: {fileID: 0}
+    - target: {fileID: 22420908, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000061035156
+      objectReference: {fileID: 0}
+    - target: {fileID: 22420908, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
   m_IsPrefabParent: 0
@@ -422,11 +451,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 2.78
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -3.04
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_SizeDelta.x
@@ -462,7 +491,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 102746, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22461962, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 11492248, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
+      propertyPath: m_Text
+      value: "\u9EDE\u64CA\u6ED1\u9F20\u5DE6\u9375\u4E8C\u6BB5\u8DF3\u9583\u907F\u969C\u7919\u7269\n\u60F3\u8FA6\u6CD5\u524D\u9032\u8D85\u904E1500M
+        !!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
@@ -526,6 +564,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 56d65b6e6e95e1245ad9cb27ec3b220d, type: 2}
   m_StaticBatchInfo:
@@ -629,6 +668,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 71ffd89520f2db849a6127008690e239, type: 2}
   m_StaticBatchInfo:
@@ -735,7 +775,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.5
+  orthographic size: 6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -776,16 +816,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MinimumZoom: {x: -2.66, y: 0.43, z: -10}
-  MinimumZoomOrthographic: 4.5
+  MinimumZoomOrthographic: 5
   MaximumZoom: {x: -2.66, y: 0.43, z: -10}
-  MaximumZoomOrthographic: 4.5
+  MaximumZoomOrthographic: 6
   FollowsPlayerX: 0
   FollowsPlayerY: 1
   FollowsPlayerZ: 0
   CameraSpeed: 5
   CameraCanOnlyMoveWithinBounds: 1
-  BottomLeftBounds: {x: -12.65, y: -5.2}
-  TopRightBounds: {x: 7.6, y: 11.67}
+  BottomLeftBounds: {x: -10.99, y: -7.1}
+  TopRightBounds: {x: 9.2, y: 9.16}
   EnableEffectsOnMobile: 0
 --- !u!114 &1080557600
 MonoBehaviour:
@@ -886,19 +926,16 @@ MonoBehaviour:
   - {fileID: 114153387189314458, guid: dea71554ce43a4974a4e6b730e3e7c3e, type: 2}
   DistanceBetweenCharacters: 1
   PointsPerSecond: 20
-  InstructionsText: 'Desktop : Press space or A (pad) to jump.
-
-    Mobile : Tap anywhere
-
-    Beware the penguins!'
+  InstructionsText: "\u9EDE\u64CA\u6ED1\u9F20\u5DE6\u9375\u4E8C\u6BB5\u8DF3\u9583\u907F\u969C\u7919\u7269\n\u60F3\u8FA6\u6CD5\u524D\u9032\u8D85\u904E1500M
+    !!"
   RecycleBounds:
     m_Center: {x: 1.75, y: 0, z: 0}
     m_Extent: {x: 29.44, y: 15.42, z: 0}
   DeathBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 15.72, y: 7.35, z: 0}
+    m_Extent: {x: 12.54, y: 7.35, z: 0}
   InitialSpeed: 5
-  MaximumSpeed: 10
+  MaximumSpeed: 20
   SpeedAcceleration: 0.5
   IntroFadeDuration: 1
   OutroFadeDuration: 1
@@ -1024,6 +1061,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5cf12f755626340489c136db706b3ab6, type: 2}
   m_StaticBatchInfo:
@@ -1127,6 +1165,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5ddc0bd9aba677446a8196bdde0c670a, type: 2}
   m_StaticBatchInfo:
@@ -1241,6 +1280,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
