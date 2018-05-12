@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 309149939}
   - component: {fileID: 309149941}
   - component: {fileID: 309149938}
+  - component: {fileID: 309149940}
   m_Layer: 0
   m_Name: PenguinSpawner
   m_TagString: Untagged
@@ -240,7 +241,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 309149937}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9825c1a75a1139e4698dc2d0aa2eed3a, type: 3}
   m_Name: 
@@ -253,8 +254,8 @@ MonoBehaviour:
   Spawning: 1
   OnlySpawnWhileGameInProgress: 1
   InitialDelay: 0
-  MinSpawnTime: 0
-  MaxSpawnTime: 1.5
+  MinSpawnTime: 1.5
+  MaxSpawnTime: 3
   MinPosition: {x: 0, y: -5, z: 0}
   MaxPosition: {x: 0, y: 5, z: 0}
 --- !u!4 &309149939
@@ -270,6 +271,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &309149940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 309149937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 0.5, y: 0.3, z: 1}
+  MaximumSize: {x: 0.5, y: 0.4, z: 1}
+  PreserveRatio: 0
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 1
+  InitialDelay: 0
+  GapOrigin: 0
+  MinimumGap: {x: 10, y: 1, z: 1}
+  MaximumGap: {x: 15, y: 1, z: 1}
+  MinimumYClamp: -3
+  MaximumYClamp: 3
+  MinimumZClamp: 0
+  MaximumZClamp: 0
+  SpawnRotatedToDirection: 1
 --- !u!114 &309149941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,7 +830,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1080557599
 MonoBehaviour:
@@ -935,7 +963,7 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 12.54, y: 7.35, z: 0}
   InitialSpeed: 5
-  MaximumSpeed: 20
+  MaximumSpeed: 18
   SpeedAcceleration: 0.5
   IntroFadeDuration: 1
   OutroFadeDuration: 1
@@ -1345,5 +1373,114 @@ Transform:
   - {fileID: 1670408398}
   - {fileID: 1582227268}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2069110930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2069110933}
+  - component: {fileID: 2069110932}
+  - component: {fileID: 2069110931}
+  - component: {fileID: 2069110934}
+  m_Layer: 0
+  m_Name: PenguinSpawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2069110931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069110930}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9825c1a75a1139e4698dc2d0aa2eed3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 0.5, y: 0.3, z: 1}
+  MaximumSize: {x: 0.5, y: 0.5, z: 1}
+  PreserveRatio: 0
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 1
+  InitialDelay: 0
+  MinSpawnTime: 1.5
+  MaxSpawnTime: 3
+  MinPosition: {x: 0, y: -5, z: 0}
+  MaxPosition: {x: 0, y: 5, z: 0}
+--- !u!114 &2069110932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069110930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72614d3b296314bfb993b1b8fe96c02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  Pool:
+  - GameObjectToPool: {fileID: 154824, guid: 5444ce7e8a56a4191a4e977ffe659075, type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 132938, guid: 70bb5f6151676425a81166f1cf6bbaaf, type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  - GameObjectToPool: {fileID: 178510, guid: 5f6967b7dc6e54bf3bd149efd56e52b0, type: 2}
+    PoolSize: 2
+    PoolCanExpand: 1
+    Enabled: 1
+  PoolingMethod: 3
+  CanPoolSameObjectTwice: 1
+--- !u!4 &2069110933
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069110930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.5, y: 2.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2069110934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069110930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6733ca52c3fdb5843abc7ba0ed3608c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimumSize: {x: 0.5, y: 0.3, z: 1}
+  MaximumSize: {x: 0.5, y: 0.4, z: 1}
+  PreserveRatio: 0
+  MinimumRotation: {x: 0, y: 0, z: 0}
+  MaximumRotation: {x: 0, y: 0, z: 0}
+  Spawning: 1
+  OnlySpawnWhileGameInProgress: 1
+  InitialDelay: 0
+  GapOrigin: 0
+  MinimumGap: {x: 10, y: 1, z: 1}
+  MaximumGap: {x: 15, y: 1, z: 1}
+  MinimumYClamp: -3
+  MaximumYClamp: 3
+  MinimumZClamp: 0
+  MaximumZClamp: 0
+  SpawnRotatedToDirection: 1

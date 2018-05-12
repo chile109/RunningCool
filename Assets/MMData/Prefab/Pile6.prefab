@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 11453910}
   - component: {fileID: 5064918}
   - component: {fileID: 11433616}
-  - component: {fileID: 114631960187816444}
+  - component: {fileID: 114960100746414990}
   m_Layer: 0
-  m_Name: Pile1
+  m_Name: Pile6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 178510}
   m_IsPrefabParent: 1
---- !u!114 &114631960187816444
+--- !u!114 &114960100746414990
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -203,6 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14804e430bb94d8086082b80a447fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTop: 1
+  IsTop: 0
   SkyBottomY: -2.5
   SkyTopY: 2.5

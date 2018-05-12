@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 11426012}
   - component: {fileID: 5051558}
   - component: {fileID: 11406372}
-  - component: {fileID: 11405866}
+  - component: {fileID: 114860204953097626}
   m_Layer: 0
   m_Name: Pile2
   m_TagString: Untagged
@@ -80,19 +80,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.96, y: 10.2}
   m_EdgeRadius: 0
---- !u!114 &11405866
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 154824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 430f04cac81c6e84b8ab927305637c25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SkyBottomY: -2.5
-  SkyTopY: 2.5
 --- !u!114 &11406372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -205,3 +192,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 154824}
   m_IsPrefabParent: 1
+--- !u!114 &114860204953097626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c14804e430bb94d8086082b80a447fa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsTop: 1
+  SkyBottomY: -2.5
+  SkyTopY: 2.5
