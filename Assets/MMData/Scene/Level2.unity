@@ -1113,6 +1113,10 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: -0.0000038146973
       objectReference: {fileID: 0}
+    - target: {fileID: 11492248, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
   m_IsPrefabParent: 0
