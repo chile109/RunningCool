@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UseDefaultMecanim: 1
   ShouldResetPosition: 1
-  ResetPositionSpeed: 0.5
+  ResetPositionSpeed: 1
   JumpForce: 20
   NumberOfJumpsAllowed: 1
   CooldownBetweenJumps: 0

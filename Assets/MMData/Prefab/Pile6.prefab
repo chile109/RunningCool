@@ -29,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 178510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.25, y: 1.6058434, z: 0}
+  m_LocalPosition: {x: 48.19, y: 1.6058434, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -69,16 +69,16 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0.47, y: 0.39, z: 0.72999996, w: 2.33}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.09, y: 10.21}
+    oldSize: {x: 0.79, y: 10.14}
     newSize: {x: 2.09, y: 10.21}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.09, y: 10.21}
+  m_Size: {x: 1, y: 10.21}
   m_EdgeRadius: 0
 --- !u!114 &11433616
 MonoBehaviour:
@@ -155,7 +155,7 @@ SpriteRenderer:
   m_SortingLayerID: -1598858785
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300002, guid: 2ad48a9d3dc4b864e8d2859418803884, type: 3}
+  m_Sprite: {fileID: 21300016, guid: 90b16cf61ba7fee41bb0e673046f6085, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -204,5 +204,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTop: 0
-  SkyBottomY: -2.5
+  SkyBottomY: -2.7
   SkyTopY: 2.5

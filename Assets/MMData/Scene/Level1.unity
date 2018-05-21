@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 309149938}
   - component: {fileID: 309149940}
   m_Layer: 0
-  m_Name: PenguinSpawner
+  m_Name: PileSpawnerTop
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1384,38 +1384,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2069110933}
   - component: {fileID: 2069110932}
-  - component: {fileID: 2069110931}
   - component: {fileID: 2069110934}
   m_Layer: 0
-  m_Name: PenguinSpawner (1)
+  m_Name: PileSpawnerDown
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2069110931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2069110930}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9825c1a75a1139e4698dc2d0aa2eed3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MinimumSize: {x: 0.5, y: 0.3, z: 1}
-  MaximumSize: {x: 0.5, y: 0.5, z: 1}
-  PreserveRatio: 0
-  MinimumRotation: {x: 0, y: 0, z: 0}
-  MaximumRotation: {x: 0, y: 0, z: 0}
-  Spawning: 1
-  OnlySpawnWhileGameInProgress: 1
-  InitialDelay: 0
-  MinSpawnTime: 1.5
-  MaxSpawnTime: 3
-  MinPosition: {x: 0, y: -5, z: 0}
-  MaxPosition: {x: 0, y: 5, z: 0}
 --- !u!114 &2069110932
 MonoBehaviour:
   m_ObjectHideFlags: 0

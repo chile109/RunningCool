@@ -1,14 +1,18 @@
 fileFormatVersion: 2
 guid: 90b16cf61ba7fee41bb0e673046f6085
-timeCreated: 1524152631
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: 01 obstacle_1
     21300002: 01 obstacle_2
     21300004: 01 obstacle_0
+    21300006: Pile_0
+    21300008: Pile_1
+    21300010: Pile_2
+    21300012: Pile_3
+    21300014: Pile_4
+    21300016: Pile_5
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,18 +52,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -69,7 +76,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -83,49 +91,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 01 obstacle_1
+      name: Pile_0
       rect:
         serializedVersion: 2
-        x: 207
-        y: 53
-        width: 114
-        height: 2589
+        x: 72
+        y: 1926
+        width: 79
+        height: 1013
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa5e52fe9f81242169de891536aecc6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: 01 obstacle_2
+      name: Pile_1
       rect:
         serializedVersion: 2
-        x: 358
-        y: 50
-        width: 110
-        height: 2376
+        x: 222
+        y: 1601
+        width: 80
+        height: 1012
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 263861ac5bd5441ca9350424fbe7d41a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: 01 obstacle_0
+      name: Pile_2
       rect:
         serializedVersion: 2
-        x: 59
-        y: 53
-        width: 107
-        height: 2898
+        x: 373
+        y: 1396
+        width: 79
+        height: 1012
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 53b9c94d1416a4561b7aa19477f18256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 61
+        width: 79
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146b4b6c4cda4ae0af6521384ba7d74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 61
+        width: 80
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3044a00babc894f0faf3e63b1f219b91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 61
+        width: 79
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771fb52a7400b4c808e1092f3705c7d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: c7ddbaaf6ef894f60bc34eb996e37cb8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
