@@ -964,17 +964,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0c9c1f4395abc4bac66e782e03989f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinimumZoom: {x: 3, y: 0, z: -10}
+  MinimumZoom: {x: 3, y: -0.5, z: -10}
   MinimumZoomOrthographic: 5
   MaximumZoom: {x: 3, y: 1.5, z: -10}
-  MaximumZoomOrthographic: 5
+  MaximumZoomOrthographic: 8
   FollowsPlayerX: 1
   FollowsPlayerY: 1
   FollowsPlayerZ: 0
   CameraSpeed: 3
   CameraCanOnlyMoveWithinBounds: 1
-  BottomLeftBounds: {x: -15.12, y: -7.06}
-  TopRightBounds: {x: 8.62, y: 6.32}
+  BottomLeftBounds: {x: -15.17, y: -9.39}
+  TopRightBounds: {x: 8.62, y: 9.43}
   EnableEffectsOnMobile: 0
 --- !u!114 &1080557600
 MonoBehaviour:
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   PlayableCharacters:
   - {fileID: 114153387189314458, guid: dea71554ce43a4974a4e6b730e3e7c3e, type: 2}
   DistanceBetweenCharacters: 1
-  PointsPerSecond: 20
+  PointsPerSecond: 0
   InstructionsText: "\u9EDE\u64CA\u6ED1\u9F20\u5DE6\u9375\u9032\u884C\u4E8C\u6BB5\u8DF3\u907F\u514D\u6389\u843D\uFF01\n\u7372\u5F97\u66F4\u591A\u661F\u661F\uFF0C\u9069\u6642\u5229\u7528\u52A0\u901F\u5668\u3002"
   RecycleBounds:
     m_Center: {x: 0, y: 0, z: 0}
