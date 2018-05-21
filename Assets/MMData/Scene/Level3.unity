@@ -431,7 +431,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1598858785
-  m_SortingLayer: 1
+  m_SortingLayer: 6
   m_SortingOrder: 2
 --- !u!33 &424739595
 MeshFilter:
@@ -702,7 +702,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1598858785
-  m_SortingLayer: 1
+  m_SortingLayer: 6
   m_SortingOrder: 2
 --- !u!33 &904397327
 MeshFilter:
@@ -977,7 +977,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -232623025
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -5649,7 +5649,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1598858785
-  m_SortingLayer: 1
+  m_SortingLayer: 6
   m_SortingOrder: 2
 --- !u!33 &1126203306
 MeshFilter:
@@ -5724,7 +5724,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -232623025
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -10409,7 +10409,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1598858785
-  m_SortingLayer: 1
+  m_SortingLayer: 6
   m_SortingOrder: 0
 --- !u!33 &1969892936
 MeshFilter:
@@ -10613,6 +10613,11 @@ Prefab:
     - target: {fileID: 22420908, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224155146052095218, guid: 8b1d1328ec81f07408bd9ef50552cd0e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 23.83966
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b1d1328ec81f07408bd9ef50552cd0e, type: 2}
