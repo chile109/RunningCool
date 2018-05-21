@@ -186,19 +186,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -2.11999989
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -3.01999998
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 423.940002
+      value: 423.94
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 141.270004
+      value: 141.27
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_AnchorMin.x
@@ -218,11 +218,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22428336, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_Pivot.y
-      value: .5
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22461962, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
@@ -5540,11 +5544,7 @@ MonoBehaviour:
   - {fileID: 114329188403024728, guid: b0d5c6144204d408a805497431b1cca6, type: 2}
   DistanceBetweenCharacters: 1
   PointsPerSecond: 20
-  InstructionsText: 'Desktop : Press space or A (pad) to breathe fire.
-
-    Mobile : Tap anywhere
-
-    Avoid the electric sharks!'
+  InstructionsText: "\u7A7F\u68AD\u5B87\u5B99\uFF0C\u9EDE\u64CA\u9583\u907F\u602A\u7269\u5427\uFF5E"
   RecycleBounds:
     m_Center: {x: 17.5, y: 0, z: 0}
     m_Extent: {x: 38.51, y: 11.14, z: 0}
@@ -10291,8 +10291,8 @@ MonoBehaviour:
   NestWaitingPool: 1
   GameObjectToPool: {fileID: 1217811898495542, guid: 3865bb62bf51b485eb3274a3ab6a297d,
     type: 2}
-  PoolSize: 3
-  PoolCanExpand: 1
+  PoolSize: 2
+  PoolCanExpand: 0
 --- !u!114 &1918863559
 MonoBehaviour:
   m_ObjectHideFlags: 0
