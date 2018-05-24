@@ -7,6 +7,7 @@ using MoreMountains.Tools;
 public class ClearanManager : MonoBehaviour {
 
 	public float Goal = 1500;
+	public GameObject WinParticle;
 	private bool complete = false;
 	void Update () {
 		if (GameManager.Instance.Points >= Goal && !complete)
@@ -22,6 +23,7 @@ public class ClearanManager : MonoBehaviour {
 		complete = true;
 		LevelManager.Instance.CurrentPlayableCharacters.Remove(player);
 		Destroy(player.gameObject);
+		WinParticle.SetActive(true);
 		MMEventManager.TriggerEvent(new MMGameEvent("Win"));
 		StartCoroutine(RemoveCharacterCo(player));
 	}
