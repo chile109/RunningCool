@@ -175,9 +175,9 @@ MonoBehaviour:
   NumberOfJumpsAllowed: 1
   CooldownBetweenJumps: 0
   JumpsAllowedWhenGroundedOnly: 0
-  JumpReleaseSpeed: 50
+  JumpReleaseSpeed: 100
   JumpProportionalToPress: 1
-  BuffTime: 5
+  BuffTime: 3
   _numberOfJumpsLeft: 0
 --- !u!114 &114390297698847852
 MonoBehaviour:

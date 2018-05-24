@@ -716,7 +716,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11492248, guid: 0ac921368d5dc434a84f941fe46da470, type: 2}
       propertyPath: m_Text
-      value: "\u9EDE\u64CA\u6ED1\u9F20\u5DE6\u9375\u4E8C\u6BB5\u8DF3\u9583\u907F\u969C\u7919\u7269\n\u60F3\u8FA6\u6CD5\u524D\u9032\u8D85\u904E1500M
+      value: "\u9EDE\u64CA\u6ED1\u9F20\u5DE6\u9375\u4E8C\u6BB5\u8DF3\u9583\u907F\u969C\u7919\u7269\n\u60F3\u8FA6\u6CD5\u524D\u9032\u8D85\u904E1000M
         !!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae34f84a8fa74be6aa1fa9e7e9d0e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: 100
+  Goal: 1000
   WinParticle: {fileID: 2006906465}
 --- !u!1 &799992821
 GameObject:
@@ -1540,8 +1540,8 @@ MonoBehaviour:
   DeathBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 12.54, y: 7.35, z: 0}
-  InitialSpeed: 5
-  MaximumSpeed: 18
+  InitialSpeed: 8
+  MaximumSpeed: 20
   SpeedAcceleration: 0.5
   IntroFadeDuration: 1
   OutroFadeDuration: 1
