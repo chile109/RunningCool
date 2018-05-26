@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,7 +39,6 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +54,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 0
@@ -284,7 +284,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 222198c90538ea84a874dccb3a95513a, type: 2}
   m_StaticBatchInfo:
@@ -855,7 +854,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 56d65b6e6e95e1245ad9cb27ec3b220d, type: 2}
   m_StaticBatchInfo:
@@ -1704,7 +1702,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 71ffd89520f2db849a6127008690e239, type: 2}
   m_StaticBatchInfo:
@@ -2001,7 +1998,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -2045,14 +2042,14 @@ MonoBehaviour:
   MinimumZoom: {x: -1, y: 0.43, z: -10}
   MinimumZoomOrthographic: 6
   MaximumZoom: {x: -1, y: 0.43, z: -10}
-  MaximumZoomOrthographic: 7
+  MaximumZoomOrthographic: 6
   FollowsPlayerX: 0
   FollowsPlayerY: 1
   FollowsPlayerZ: 0
   CameraSpeed: 5
   CameraCanOnlyMoveWithinBounds: 1
-  BottomLeftBounds: {x: -10.18, y: -8.95}
-  TopRightBounds: {x: 8.79, y: 8.56}
+  BottomLeftBounds: {x: -9.6, y: -8.95}
+  TopRightBounds: {x: 6.71, y: 8.56}
   EnableEffectsOnMobile: 0
 --- !u!114 &1080557600
 MonoBehaviour:
@@ -2352,7 +2349,7 @@ MonoBehaviour:
     m_Extent: {x: 29.44, y: 15.42, z: 0}
   DeathBounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 12.54, y: 7.35, z: 0}
+    m_Extent: {x: 10.13, y: 7.35, z: 0}
   InitialSpeed: 8
   MaximumSpeed: 20
   SpeedAcceleration: 0.5
@@ -2671,7 +2668,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5cf12f755626340489c136db706b3ab6, type: 2}
   m_StaticBatchInfo:
@@ -3013,7 +3009,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5ddc0bd9aba677446a8196bdde0c670a, type: 2}
   m_StaticBatchInfo:
@@ -3212,7 +3207,6 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
