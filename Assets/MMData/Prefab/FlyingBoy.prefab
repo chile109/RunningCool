@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4897648644575516}
   - component: {fileID: 198650584663424554}
   - component: {fileID: 199990549696604670}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: CaveRacerReactorRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4920709268802904}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: CaveRacerRocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4900711608752080}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: RocketContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4955165124236348}
   - component: {fileID: 198309870015722402}
   - component: {fileID: 199806691951983728}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: CaveRacerReactorLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9421,8 +9421,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 348693073
-  m_SortingLayer: 3
+  m_SortingLayerID: 857595757
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -9477,11 +9477,11 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 348693073
-  m_SortingLayer: 3
+  m_SortingLayerID: 857595757
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_RenderMode: 0
-  m_SortMode: 0
+  m_SortMode: 3
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
   m_CameraVelocityScale: 0

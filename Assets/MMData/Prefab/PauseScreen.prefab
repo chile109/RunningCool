@@ -39,7 +39,6 @@ GameObject:
   m_Component:
   - component: {fileID: 224988549700642392}
   - component: {fileID: 222407489532901964}
-  - component: {fileID: 114782303554901692}
   - component: {fileID: 114761952770388872}
   m_Layer: 5
   m_Name: PauseScreen
@@ -364,24 +363,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114782303554901692
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1494582524818080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee20f3aee2e43814ba9d03037d9f1a85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ButtonList:
-  - {fileID: 114573129961567290}
-  - {fileID: 114601118599628134}
-  - {fileID: 114374172850650440}
-  KeyboardSpeed: 0.3
-  Axis: 0
-  AutoPressButtonOnFocus: 0
 --- !u!114 &114819687999872122
 MonoBehaviour:
   m_ObjectHideFlags: 1
