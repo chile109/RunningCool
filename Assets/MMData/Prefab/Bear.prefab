@@ -507,6 +507,7 @@ GameObject:
   - component: {fileID: 114130810710690636}
   - component: {fileID: 114843679479383248}
   - component: {fileID: 114376731730257950}
+  - component: {fileID: 114267159358290814}
   - component: {fileID: 114628290391813562}
   m_Layer: 0
   m_Name: Bear
@@ -1409,6 +1410,19 @@ MonoBehaviour:
   - {fileID: 4588953677610488}
   - {fileID: 4918296746466612}
   - {fileID: 4923221942535792}
+--- !u!114 &114267159358290814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1857973443317224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfcd2f3bcb0a54243951ba96abb66520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetColor: {r: 1, g: 1, b: 1, a: 0.11764706}
+  SpriteMesh: {fileID: 114241141985612614}
 --- !u!114 &114313660580181082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1875,7 +1889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a6617bb2a239047a2242ac9b1cc531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 6
+  Speed: 2
   Acceleration: 0
   Direction: {x: -1, y: 0, z: 0}
   DirectionCanBeChangedBySpawner: 1
