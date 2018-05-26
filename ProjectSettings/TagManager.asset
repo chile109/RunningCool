@@ -22,7 +22,7 @@ TagManager:
   - player
   - Enemy
   - background
-  - 
+  - Effect
   - 
   - 
   - 
@@ -71,4 +71,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 4120066615
+    locked: 0
+  - name: Effect
+    uniqueID: 857595757
     locked: 0
