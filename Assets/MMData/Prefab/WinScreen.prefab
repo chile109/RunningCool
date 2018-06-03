@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 416556a599ba244019657100d380995d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd9af6b6757dd4784911cb94c5f3e3fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3369c675a677747bde4a857aee7f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: 
+  LevelName: Level2
 --- !u!114 &114595624216780004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -416,7 +416,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 9477313e4ca0e49faa62ab0c5f2725e4,
+    m_HighlightedSprite: {fileID: 21300000, guid: 5d5f3314187e547e1a21269df3d2faf3,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -431,7 +431,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114575346523484630}
-        m_MethodName: RestartLevel
+        m_MethodName: GoToLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1998,6 +1998,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114575346523484630, guid: c1f129ac8aade46fe87fb1b2b42fa42e,
+        type: 2}
+      propertyPath: LevelName
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114874482371058630, guid: c1f129ac8aade46fe87fb1b2b42fa42e,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1f129ac8aade46fe87fb1b2b42fa42e, type: 2}
   m_IsPrefabParent: 0
