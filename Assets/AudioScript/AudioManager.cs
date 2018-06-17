@@ -30,7 +30,14 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        inst = this;
+		if (inst == null)
+		{
+			inst = this;
+			DontDestroyOnLoad(this);
+		}
+		else
+			Destroy(this);
+		
     }
     // Use this for initialization
     void Start()

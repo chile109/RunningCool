@@ -22,7 +22,7 @@ public class DeformationEnemy : MonoBehaviour {
 
 		while (elapsedTime < _duration)
 		{
-			Debug.Log(elapsedTime);
+			//Debug.Log(elapsedTime);
 			ZoomBG.localScale = Vector3.Lerp(InitScale, TargetScale, elapsedTime / _duration);
 			elapsedTime += Time.deltaTime;
 
@@ -38,7 +38,7 @@ public class DeformationEnemy : MonoBehaviour {
 
 		while (elapsedTime < _duration)
 		{
-			Debug.Log(elapsedTime);
+			//Debug.Log(elapsedTime);
 			ZoomBG.localScale = Vector3.Lerp(TargetScale, InitScale, elapsedTime / _duration);
 			elapsedTime += Time.deltaTime;
 

@@ -47,7 +47,7 @@ namespace MoreMountains.InfiniteRunnerEngine
 
             if (Vector2.Distance(transform.position, target.transform.position) < Gap)
             {
-                Debug.Log(Vector2.Distance(transform.position, target.transform.position));
+                //Debug.Log(Vector2.Distance(transform.position, target.transform.position));
                 rotatingSpeed = 0;
             }
 

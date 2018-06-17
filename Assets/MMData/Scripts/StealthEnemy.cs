@@ -21,7 +21,7 @@ public class StealthEnemy : MonoBehaviour {
 
 		while (elapsedTime < _duration)
 		{
-			Debug.Log(elapsedTime);
+			//Debug.Log(elapsedTime);
 			SpriteMesh.color =Color.Lerp(InitColor, TargetColor, elapsedTime / _duration);
 			elapsedTime += Time.deltaTime;
 
@@ -39,7 +39,7 @@ public class StealthEnemy : MonoBehaviour {
 
 		while (elapsedTime < _duration)
 		{
-			Debug.Log(elapsedTime);
+			//Debug.Log(elapsedTime);
 			SpriteMesh.color = Color.Lerp(TargetColor, InitColor, elapsedTime / _duration);
 			elapsedTime += Time.deltaTime;
 
