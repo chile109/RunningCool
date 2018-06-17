@@ -14,6 +14,7 @@ public class DestroyObj : MonoBehaviour
     void Start()
     {
         StartCoroutine(DelayTime(DestroyTime));
+		DontDestroyOnLoad(this);
     }
 
     IEnumerator DelayTime(float Delay)

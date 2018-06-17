@@ -2670,6 +2670,87 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70dc021031797409dbd6b723751f8fae, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1275565269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150222, guid: 5f6975e35514bbc4e9dc115b1d01a9ec, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1275565271}
+  - component: {fileID: 1275565270}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1275565270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275565269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba95edb8fd1aa6c40bb1fdb92b8ea9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGM_ASSets: []
+  SFX_ASSets:
+  - name: Jump
+    _Clip:
+      isRandom: 0
+      AudioClip:
+      - {fileID: 8300000, guid: 5daf5b57cd0734342a039d2e617f5a2e, type: 3}
+      fadeInTime: 0
+      fadeOutTime: 0
+    Mute: 0
+    PlayOnAwake: 1
+    Loop: 0
+    Priority: 131
+    Volume: 0.5
+    _PitchSet:
+      isRandom: 0
+      initPitch: 1
+      max: 1
+      min: 1
+  BTN_ASSets:
+  - name: BTN01
+    _Clip:
+      isRandom: 0
+      AudioClip:
+      - {fileID: 8300000, guid: 377074339f72e445fa9fd109843ca586, type: 3}
+      fadeInTime: 0
+      fadeOutTime: 0
+    Mute: 0
+    PlayOnAwake: 1
+    Loop: 0
+    Priority: 138
+    Volume: 1
+    _PitchSet:
+      isRandom: 0
+      initPitch: 1.46
+      max: 1.982
+      min: 0.491
+  EmptyAudioSource: {fileID: 151024, guid: 9c1e9623eb226ff4cb1a1d53022a1f2e, type: 2}
+  AudioObjInScene: []
+  BGM_FixValue: 0.5
+  SFX_FixValue: 0.5
+--- !u!4 &1275565271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 474852, guid: 5f6975e35514bbc4e9dc115b1d01a9ec, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275565269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1334849622 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114345386422577404, guid: 9fec982dc62184337a627e29b5475710,
@@ -3579,6 +3660,7 @@ MonoBehaviour:
   LevelText: {fileID: 1501164891}
   CountdownText: {fileID: 1894075472}
   Fader: {fileID: 1029228241}
+  buttons: []
 --- !u!92 &1941194554
 Behaviour:
   m_ObjectHideFlags: 0

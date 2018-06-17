@@ -126,7 +126,7 @@ namespace MoreMountains.InfiniteRunnerEngine
             // we make our character jump
             ApplyJumpForce();
             MMEventManager.TriggerEvent(new MMGameEvent("Jump"));
-
+			AudioManager.SFX_ES.Trigger("Jump");
             _lastJumpTime = Time.time;
         }
 
