@@ -1,6 +1,7 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class MenuController : MonoBehaviour {
 	
@@ -14,22 +15,31 @@ public class MenuController : MonoBehaviour {
 	public GameObject InitView;
 	public GameObject SelectView;
 
-
 	public CamZoom Zoomtool;
+	public Button[] buttons;
 
 	void Start () {
+		buttons = GetComponentsInChildren<Button>();
+		foreach(var b in buttons)
+		{
+			b.onClick.AddListener(delegate
+			{
+				AudioManager.BTN_ES.Trigger("BTN01");
+			});
+		}
+
 		btn_start.onClick.AddListener(delegate
 		{
 
 			InitView.SetActive(false);
-			SelectView.SetActive(true);
+			StartCoroutine(GoSelect());
 			Zoomtool.Zoom(0.5f);
 
 		});
 
 		btn_exit.onClick.AddListener(delegate
 		{
-
+			
 			Application.Quit();
 
 		});
@@ -48,5 +58,17 @@ public class MenuController : MonoBehaviour {
 		
 			SceneManager.LoadSceneAsync("Level3");
 		});
+	}
+
+	IEnumerator GoSelect()
+	{
+		float elapsedTime = 0;
+		Vector3 startingPos = SelectView.transform.localPosition;
+		while (elapsedTime < 0.5f)
+		{
+			SelectView.transform.localPosition = Vector3.Lerp(startingPos, Vector3.zero, (elapsedTime / 0.5f));
+			elapsedTime += Time.deltaTime;
+			yield return null;
+		}
 	}
 }
